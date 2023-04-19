@@ -4,6 +4,15 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>One Tap Garage</title>
+         <!-- myadd!! -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS -->
+	<link rel="stylesheet" href="css/demo.css">
+  <!-- myadd!! -->
         <?php include 'bootstrap/styles.php'; ?> 
         <style>
             .card{
@@ -38,7 +47,7 @@
                             </li>
                             <li class="nav-item">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
                                     <span class="h5">Book Now</span>
                                 </button>
                             </li>
@@ -271,6 +280,7 @@
             <div class="text-center py-3">
                 <small class="text-white-50">Copyright 2023. All right reserved.</small>
             </div>
+            <?php require_once "php/loginmodal.php"; ?>
         </footer>
     </body>
 </html>
