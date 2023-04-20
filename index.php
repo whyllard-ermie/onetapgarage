@@ -151,7 +151,7 @@
                     <img src="/images/Group 12.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-12">
-                    <img src="/images/Group 13.png" class="img-fluid" alt="">
+                    <img src="images/Group 13.png" class="img-fluid" alt="">
                 </div>
             </div>
         </section>
