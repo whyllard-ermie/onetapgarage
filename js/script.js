@@ -13,6 +13,10 @@ $(document).ready(function() {             $('#SignUpmodal').modal('hide');
   })
 });
 // END
+
+
+
+
  // clear modal Signup on close start here-------
 
  $('#SignUpmodal').on('hidden.bs.modal', function () {
@@ -23,13 +27,6 @@ $(document).ready(function() {             $('#SignUpmodal').modal('hide');
  // clear modal input on close start here-------
 
 $('#loginModal').on('hidden.bs.modal', function () {
-  $(this).find('form').trigger('reset');
-})
-// END
-
- // clear modal Signup on close start here-------
-
- $('#SignUpmodal').on('hidden.bs.modal', function () {
   $(this).find('form').trigger('reset');
 })
 // END

@@ -51,6 +51,5 @@
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
    <!-- Custom Script -->      
   <script  src="js/script.js"></script>
-
   <?php require_once "SignUpmodal.php"; ?>
   <!-- modal end-->    

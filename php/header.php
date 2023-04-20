@@ -35,7 +35,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <img class="" style="width: 100px;" src="images/307586122_639980424527457_6296091053058125249_n.png" alt="onetapgarage" />
+                    <img class="" style="width: 100px;" src="../images/307586122_639980424527457_6296091053058125249_n.png" alt="onetapgarage" />
                         <ul class="navbar-nav ms-auto gap-4 align-items-center gap-4">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#"><h6>Our Clients</h6></a>

@@ -195,12 +195,14 @@
                 <h2 class="text-white">Do you want to be with us?</h2>
                 <span class="text-white">Choosing to be a partner means putting your trust in someone else and building a relationship based on mutual respect, honesty, and reliability. At our core, we believe that trust is the foundation of any successful partnership. That's why we're committed to working with our partners to build long-lasting relationships that stand the test of time.</span>
                 <div class="d-inline">
-                    <a href="php/join.php" class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
+                    <a href="php/join.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
                 </div>
             </div>
             <img src="images/Group 14.png" class="img-fluid" alt="">
         </section>
         <?php include './php/footer.php';?>
         <?php require_once "php/loginmodal.php"; ?>
+        <?php require_once "php/joinModal.php"; ?>
+       
     </body>
 </html>

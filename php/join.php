@@ -1,4 +1,5 @@
-<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="en">
 <link rel="stylesheet" href="../css/style.css">
 <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'>
@@ -112,10 +113,12 @@
                                 </div>
                             </fieldset>
                         </form>
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
