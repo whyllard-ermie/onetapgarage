@@ -6,10 +6,11 @@
             <div class="d-flex justify-content-between">
                 <div class="d-flex flex-column gap-4 justify-content-center mx-5 px-5">
                 &nbsp
-                    <h1 class="fw-bold">Service Beyond the Standards</h1>
-                        <span class="fw-bold text-secondary h4">Unlock the happiness of driving with our exceptional automotive engineering and design.</span>
+                    <h1 class="fw-bold">Be with us!</h1>
+                        <span class="fw-bold text-secondary h5">Grow your business with US!
+                            </span>
                     <div>
-                        <button class="p-3 btn btn-primary text-white"id="learnmore">Learn More</button>
+                    <a href="php/join.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
                     </div>
                 </div>
                 <img src="images/Group 1.png" alt="Image" />
@@ -192,10 +193,11 @@
         </section>
         <section class="position-relative">
             <div class="position-absolute top-0 start-50 translate-middle-x p-4 z-1 h-100 d-flex flex-column justify-content-center text-center gap-3" >
-                <h2 class="text-white">Do you want to be with us?</h2>
-                <span class="text-white">Choosing to be a partner means putting your trust in someone else and building a relationship based on mutual respect, honesty, and reliability. At our core, we believe that trust is the foundation of any successful partnership. That's why we're committed to working with our partners to build long-lasting relationships that stand the test of time.</span>
+                <h2 class="text-white">Service Beyond the Standards</h2>
+                <span class="text-white">Unlock the happiness of driving with our exceptional automotive engineering and design.</span>
                 <div class="d-inline">
-                    <a href="php/join.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
+                <button class="p-3 btn btn-primary text-white"id="learnmore">Learn More</button>
+                  
                 </div>
             </div>
             <img src="images/Group 14.png" class="img-fluid" alt="">

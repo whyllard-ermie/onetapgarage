@@ -95,6 +95,7 @@ p {
 }
 #join{
   border-color:white !important ;
+  border-color: #616161 !important;
   border-radius: 10px !important;
   background-color: #FF7B54 !important;
   color: white !important;
