@@ -15,11 +15,15 @@
   <!-- myadd!! -->
         <?php include 'bootstrap/styles.php'; ?> 
         <style>
+          
+            
             .card{
                 background-color: #FF7B54;
+                
             }
             .orange-section{
                 background-color: #FF7B54;
+                
             }
         </style>
     </head>
@@ -31,7 +35,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <img class="" style="width: 100px;" src="images/307586122_639980424527457_6296091053058125249_n.png" alt="onetapgarage" />
+                    <img class="" style="width: 120px;" src="images/307586122_639980424527457_6296091053058125249_n.png" alt="onetapgarage" />
                         <ul class="navbar-nav ms-auto gap-4 align-items-center gap-4">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="#"><h5>Our Clients</h5></a>
@@ -62,7 +66,7 @@
                     <h1 class="fw-bold">Service Beyond the Standards</h1>
                         <span class="fw-bold text-secondary h4">Unlock the happiness of driving with our exceptional automotive engineering and design.</span>
                     <div>
-                        <button class="p-3 btn btn-primary text-white">Learn More</button>
+                        <button class="p-3 btn btn-primary text-white"id="learnmore">Learn More</button>
                     </div>
                 </div>
                 <img src="images/Group 1.png" alt="Image" />

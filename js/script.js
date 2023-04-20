@@ -1,8 +1,40 @@
+// show loginmodal start  here-------
 $(document).ready(function() {             $('#loginModal').modal('hide');
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
 });
+// END
+
+// show SignUpmodal start  here-------
+$(document).ready(function() {             $('#SignUpmodal').modal('hide');
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+});
+// END
+ // clear modal Signup on close start here-------
+
+ $('#SignUpmodal').on('hidden.bs.modal', function () {
+  $(this).find('form').trigger('reset');
+})
+// END
+
+ // clear modal input on close start here-------
+
+$('#loginModal').on('hidden.bs.modal', function () {
+  $(this).find('form').trigger('reset');
+})
+// END
+
+ // clear modal Signup on close start here-------
+
+ $('#SignUpmodal').on('hidden.bs.modal', function () {
+  $(this).find('form').trigger('reset');
+})
+// END
+
+// show password start  here-------
 const togglePassword = document.querySelector('#togglePassword');
   const password = document.querySelector('#id_password');
 
@@ -13,3 +45,4 @@ const togglePassword = document.querySelector('#togglePassword');
     // toggle the eye slash icon
     this.classList.toggle('fa-eye-slash');
 });
+// hide password start  here-------
