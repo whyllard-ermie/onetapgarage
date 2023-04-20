@@ -45,4 +45,18 @@ const togglePassword = document.querySelector('#togglePassword');
     // toggle the eye slash icon
     this.classList.toggle('fa-eye-slash');
 });
-// hide password start  here-------
+//END
+
+
+//back to top button start here!//
+$(".top").hide();
+$(window).scroll(function(e){
+  if ($(this).scrollTop() > 0) {
+      $(".top").css("display", "block");
+  } else {
+      $(".top").css("display", "none");
+  }
+});
+
+
+// END
