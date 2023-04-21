@@ -204,7 +204,6 @@
         </section>
         <?php include './php/footer.php';?>
         <?php require_once "php/loginmodal.php"; ?>
-        <?php require_once "php/joinModal.php"; ?>
        
     </body>
 </html>
