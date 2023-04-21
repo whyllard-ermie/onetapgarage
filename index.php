@@ -204,6 +204,6 @@
         </section>
         <?php include './php/footer.php';?>
         <?php require_once "php/loginmodal.php"; ?>
-       
+       <?php include("session.php"); ?>
     </body>
 </html>
