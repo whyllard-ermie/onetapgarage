@@ -12,14 +12,14 @@
           <h5><b>Sign In</b></h5>
         </div>
         <div class="d-flex flex-column">
-          <form>
+          <form action="php/login.php" method="POST">
             <div class="form-group">
             <h6>Email</h6>
-              <input type="email" class="form-control" id="email1">
+              <input type="email" class="form-control" autofocus="" name="email"  id="email1">
             </div>
             <div class="form-group">
             <h6>Pasword</h6>
-              <input type="password" name="password"autocomplete="current-password" required="" id="id_password" class="form-control" id="password1">
+              <input type="password" name="password" autocomplete="current-password" required="" id="id_password" class="form-control">
               <div class="icon">
                 <i class="far fa-eye" id="togglePassword"></i>
 </div>
@@ -28,9 +28,8 @@
        <h6> <b><div class="signup-section">Don't you have an account? <a href="" data-toggle="modal" data-target="#SignUpmodal" data-dismiss="modal" > Sign Up</a></div></h6></b>
       </div>
       &nbsp&nbsp
-            <button type="button" class="btn btn-info btn-block btn-round"><b>Submit</b></button>
+            <button type="submit" class="btn btn-info btn-block btn-round" name="login" value="Log In"><b>Submit</b></button>
           </form>
-          
           
         </div>
       </div>

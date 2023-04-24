@@ -1,13 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+if(isset($_SESSION["email"])) {
+    header("Location:../customer/main.php");
+    }
+?>
 <?php include './php/header.php';?>
+
         <body class="body" id="body">
         <section class="mb-5 pb-5" >
             <div class="d-flex justify-content-between">
                 <div class="d-flex flex-column gap-4 justify-content-center mx-5 px-5">
                 &nbsp
                     <h1 class="fw-bold">Be with us!</h1>
-                        <span class="fw-bold text-secondary h5">Grow your business with US!
+                        <span class="fw-bold text-secondary h5">We are here to help your business grow!
                             </span>
                     <div>
                     <a href="php/join.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
@@ -20,6 +25,9 @@
             <div class="text-center">
                 <h1 class="fw-bold text-decoration-underline">Service Beyond the Standards</h1>
             </div>
+
+
+
             <div class="row g-2 mt-5">
                 <div class="col-3">
                     <div class="card ratio ratio-4x3">
@@ -184,7 +192,7 @@
                         </div>
                         <div class="col-6">
                             <div class="">
-                                <img src="images/Mask group.png" alt="">
+                                <img src="images/Mask group.png" style="width: 620px;" alt="">
                             </div>    
                         </div>
                     </div>
@@ -202,8 +210,10 @@
             </div>
             <img src="images/Group 14.png" class="img-fluid" alt="">
         </section>
+        
         <?php include './php/footer.php';?>
         <?php require_once "php/loginmodal.php"; ?>
-       <?php include("session.php"); ?>
+    
     </body>
 </html>
+<?php ob_end_flush(); ?>

@@ -45,6 +45,7 @@ const togglePassword = document.querySelector('#togglePassword');
 //END
 
 
+
 //back to top button start here!//
 $(".top").hide();
 $(window).scroll(function(e){

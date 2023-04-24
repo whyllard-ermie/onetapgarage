@@ -2,7 +2,7 @@
             <div class="container p-5">
                 <div class="row">
                     <div class="col-4">
-                        <img class="" style="width: 220px;" src="images/logo.png" alt="onetapgarage" />
+                        <img class="" style="width: 220px;" src="../images/logo.png" alt="onetapgarage" />
                     </div>
                     <div class="col-4">
                         <h5 class="text-white mb-3">Category</h5>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-              <a href="#" class="top" id="top">Back to Top &#8593;</a>
+
             <div class="text-center py-3">
                 <small class="text-white-50">Copyright 2023. All right reserved.</small>
             </div>
