@@ -36,7 +36,7 @@ $fname= $_POST['fname'];
                             <fieldset id="f1">
                                 <div class="form-card">
                                     <label for="fname">First Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="mobile" id="mobile">Mobile</b></label><br>
-                                        <input type="text" id="fname" name="fname"/>
+                                        <input type="text" id="fname" name="fname" />
                                             <input type="text" id="mobilein" name="mobile"><br>
                                     <label for="lname">Last Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="address">Address</label><br>                                   
                                         <input type="text" id="lnameinput" name="lname" placeholder=""/><br>    
@@ -136,6 +136,7 @@ $fname= $_POST['fname'];
                                     <div class="row justify-content-center">
                                         <div class="col-7 text-center">
                                             <h5>Please review your details before submitting</h5>
+
                                         </div>
                                     </div>
                                 </div>
@@ -162,6 +163,7 @@ $fname= $_POST['fname'];
         <div class="form-title">
           <h6><b>Please review your details</b></h6>
         </div>
+        
         <div class="d-flex flex-column">
           <form>
             <div class="form-group">

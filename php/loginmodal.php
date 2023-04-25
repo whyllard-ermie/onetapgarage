@@ -52,3 +52,6 @@
   <script  src="js/script.js"></script>
   <?php require_once "SignUpmodal.php"; ?>
   <!-- modal end-->    
+
+
+  

@@ -2,7 +2,7 @@
 <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>One Tap Garage</title>
+        <title>One Tap Auto Garage</title>
          <!-- myadd!! -->
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
     <!-- Font Awesome CSS -->
