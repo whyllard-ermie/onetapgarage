@@ -162,7 +162,6 @@ $fname= $_POST['fname'];
         <div class="form-title">
           <h6><b>Please review your details</b></h6>
         </div>
-        
         <div class="d-flex flex-column">
           <form>
             <div class="form-group">
