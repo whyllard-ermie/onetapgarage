@@ -20,15 +20,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "Select * from users where email='$email'";
     
     $result = mysqli_query($conn, $sql);
-    
     $num = mysqli_num_rows($result); 
-    
     // This sql query is use to check if
     // the username is already present 
     // or not in our Database
     if($num == 0) {
         if(($password== $cpassword) && $exists==false) {
-    
             $hash = password_hash($password, 
                                 PASSWORD_DEFAULT);
                 
