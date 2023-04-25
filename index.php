@@ -15,7 +15,7 @@ if(isset($_SESSION["email"])) {
                         <span class="fw-bold text-secondary h5">We are here to help your business grow!
                             </span>
                     <div>
-                    <a href="php/join.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
+                    <a href="client/client.php"class="btn btn-primary btn-lg px-5" id="join">Join Now</a>
                     </div>
                 </div>
                 <img src="images/Group 1.png" alt="Image" />

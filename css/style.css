@@ -158,7 +158,8 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 #msform fieldset .form-card {
   text-align: left;
-  color: #9E9E9E;
+  color: black;
+  font-size: calibri !important;
 }
 
 #msform input, #msform textarea {
@@ -402,4 +403,28 @@ max-width: 213px !important;
  margin-left: 268px !important;
   max-width: 210px;
 }
+#dob{
+  max-width: 210px;
+   margin-top: -90px !important;
+  margin-left: 268px !important;
+}
+#service{
+margin-left: -300px;
+}
+#servicelabel{
+margin-left: -100px;
+}
 
+#price{
+  max-width: 80px;
+    display:list-item;
+margin-top: -29px !important;
+margin-left: 500px !important;
+}
+#servlabel{
+  font-weight: 10px !important;
+  color:#FF7B54;
+}
+#prices{
+  color:#FF7B54;
+}
