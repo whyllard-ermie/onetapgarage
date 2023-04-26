@@ -13,7 +13,7 @@
           <h5><b>Sign Up</b></h5>
         
         <div class="d-flex flex-column">
-        <form name="registration" method="post" action="php/reg.php">
+        <form name="registration" method="post" action="reg.php">
             <div class="form-group">
          <pre> <h6>Name                      Last Name</h6></pre>
               <input type="text" class="form-control" id="fname" name="fname" value="">
