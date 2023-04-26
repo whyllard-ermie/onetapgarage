@@ -13,7 +13,7 @@
     <div class="row justify-content-center mt-0" >
         <div class="col-11 col-sm-9 col-md-7 col-lg-7 text-center p-0 mt-3 mb-2">
             <div class="card px-0 pt-4 pb-0 mt-3 mb-3" id="main2">
-                <h5><strong>Client Registration Form try l;angggg</strong></h5>
+                <h5><strong>Client Registration Form</strong></h5>
                 <h6>Fill all form field to go to next step</h6>
                 <div class="row">
                     <div class="col-md-12 mx-0">
