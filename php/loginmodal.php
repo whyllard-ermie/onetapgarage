@@ -12,7 +12,7 @@
           <h5><b>Sign In</b></h5>
         </div>
         <div class="d-flex flex-column">
-          <form action="php/login.php" method="POST">
+          <form action="login.php" method="POST">
             <div class="form-group">
             <h6>Email</h6>
               <input type="email" class="form-control" autofocus="" name="email"  id="email1">
