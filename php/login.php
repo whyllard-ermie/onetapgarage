@@ -22,7 +22,7 @@
     }
     if(isset($_SESSION["email"])) {
 
-    header("Location:main.php");
+    header("Location:../customer/main.php");
     }
     
 ?>
