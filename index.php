@@ -4,7 +4,7 @@ if(isset($_SESSION["email"])) {
     header("Location:../customer/main.php");
     }
 ?>
-<?php include './php/header.php';?>
+<?php include 'php/header.php';?>
 
         <body class="body" id="body">
         <section class="mb-5 pb-5" >
