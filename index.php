@@ -183,7 +183,7 @@
                         </div>
                         <div class="col-6">
                             <div class="">
-                                <img src="images/Mask group.png" alt="">
+                                <img src="/images/Mask group.png" alt="">
                             </div>    
                         </div>
                     </div>
