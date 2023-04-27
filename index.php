@@ -148,7 +148,7 @@
             </div>
             <div class="row gy-5 gap-5">
                 <div class="col-12">
-                    <img src="/images/Group 12.png" class="img-fluid" alt="">
+                    <img src="images/Group 12.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-12">
                     <img src="images/Group 13.png" class="img-fluid" alt="">
