@@ -1,0 +1,81 @@
+#navlink{
+ font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important
+}
+
+.book{
+    margin-left: 30px;
+    font-family: calibri;
+    max-height: 70px;
+    max-width: 120px !important;
+    border-radius: 10px;
+    border-color: white !important;
+    background-color: #FF7B54 !important;
+    color: white !important;
+}
+#footlogo{
+
+margin-left: 20px !important;
+}
+#foot{
+font-family: calibri !important;
+
+}
+.top {
+    place-self:end;
+    position:fixed !important;
+    bottom:20px;
+    margin-left: 1100px;
+    margin-top:100vh;
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #FF7B54;
+    border-radius: 100px;
+    white-space:nowrap;
+  }
+  #ads{
+    margin-left: -160px !important;
+    color: black;
+  }
+
+  #join{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-family: calibri;
+    max-height: 50px;
+    max-width: 160px !important;
+    border-radius: 10px;
+    border-color: white !important;
+    background-color: #FF7B54 !important;
+    color: white !important;
+}
+#learnmore{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-family: calibri;
+    max-height: 80px;
+    max-width: 160px !important;
+    border-radius: 10px;
+    border-color: white !important;
+    background-color: #FF7B54 !important;
+    color: white !important;
+
+}
+#service{
+
+text-align: center;
+}
+#submitreq{
+
+background-color: #FF7B54 !important;
+}
+.reqmodal{
+
+
+  font-family: calibri !important;
+}
